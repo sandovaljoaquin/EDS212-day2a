@@ -42,7 +42,6 @@ dc_dt
 
 dc_dt_fun <- function(t) {
   3 * t^2}
-## NOT WORKING 
 
 ggplot(data = my_data_range, aes(x = t)) + 
   geom_function(fun = ct, color = "red") + 

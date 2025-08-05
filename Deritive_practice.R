@@ -75,7 +75,7 @@ ggplot(data = penguins, aes(x = body_mass_g, y = flipper_length_mm))+
   facet_wrap(~island) + 
   theme_minimal()
 
-# Push to github
+# Push to github 
 
 
 
